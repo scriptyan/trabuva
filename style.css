@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     height: 100%;
 }
 
@@ -26,10 +27,11 @@ nav {
 }
 
 .menu {
+    flex-direction: column;
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 10px;
     padding: 0;
 }
 
@@ -45,7 +47,8 @@ nav {
 
 .container {
     border-radius: 8px;
-    width: 1000px;
+    max-width: 1000px;
+    width: 90%;
     margin: auto;
     padding: 20px;
     flex: 1;
@@ -68,21 +71,21 @@ nav {
     padding: 60px;
 }
 
-.ferramentas{
-    margin-top:20px;
-    background:#EFF5FD;
-    padding:20px;
-    border-radius:8px;
+.ferramentas {
+    margin-top: 20px;
+    background: #EFF5FD;
+    padding: 20px;
+    border-radius: 8px;
 }
 
-.ferramenta{
-    text-align:center;
-    margin-bottom:40px;
+.ferramenta {
+    text-align: center;
+    margin-bottom: 40px;
 }
 
-.ferramenta img{
-    width:100px;
-    margin-bottom:10px;
+.ferramenta img {
+    width: 100px;
+    margin-bottom: 10px;
 }
 
 .portfolio {
