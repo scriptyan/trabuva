@@ -1,8 +1,9 @@
-*{
-    box-sizing:border-box;
+* {
+    box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
 }
 
@@ -12,6 +13,8 @@ body {
     background-color: #93AFD4;
     display: flex;
     flex-direction: column;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 header {
@@ -35,6 +38,7 @@ nav {
     justify-content: center;
     gap: 30px;
     padding: 0;
+    flex-wrap: wrap;
 }
 
 .menu a {
@@ -50,7 +54,7 @@ nav {
 .container {
     border-radius: 8px;
     max-width: 1000px;
-    width: 95%;
+    width: 100%;
     margin: auto;
     padding: 20px;
     flex: 1;
@@ -66,10 +70,10 @@ nav {
 }
 
 .foto2 img {
-    width:150px;
-    border-radius:10%;
-    display:block;
-    margin:20px auto;
+    width: 150px;
+    border-radius: 10%;
+    display: block;
+    margin: 20px auto;
 }
 
 .ferramentas,
@@ -125,7 +129,7 @@ footer {
     margin-top: 20px;
 }
 
-@media (max-width: 600px) {
+@media (max-width:600px) {
 
     header {
         padding: 20px;
@@ -136,14 +140,16 @@ footer {
         gap: 10px;
     }
 
-    .foto img,
-    .foto2 img {
-        width: 120px;
-        padding: 20px;
-    }
-
     .container {
         width: 95%;
     }
 
+    .foto img,
+    .foto2 img {
+        width: 120px;
+    }
+
+    .ferramenta img {
+        width: 80px;
+    }
 }
