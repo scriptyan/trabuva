@@ -128,9 +128,27 @@ nav {
     border-radius: 8px;
 }
 
-.noticia img {
+.noticia1 img {
+    display: block;
+    margin: auto;
     width: 100%;
-    max-width: 400px;
+    max-width: 800px;
+    border-radius: 5px;
+}
+
+.noticia2 img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 650px;
+    border-radius: 5px;
+}
+
+.noticia3 img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 300px;
     border-radius: 5px;
 }
 
