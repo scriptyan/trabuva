@@ -121,6 +121,27 @@ nav {
     color: #2D507D;
 }
 
+.noticia {
+    margin-top: 20px;
+    background: #EFF5FD;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.noticia img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+}
+
+.noticia a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #2D507D;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 footer {
     text-align: center;
     padding: 15px;
