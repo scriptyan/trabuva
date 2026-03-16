@@ -121,6 +121,52 @@ nav {
     color: #2D507D;
 }
 
+.contato-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.contato-card {
+    background: #EFF5FD;
+    width: 220px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contato-card h3 {
+    margin-bottom: 10px;
+}
+
+.contato-card p {
+    font-size: 14px;
+}
+
+.contato-card a {
+    display: block;
+    margin-top: 10px;
+    color: #2D507D;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contato-card span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #587BA7;
+}
+
+.icone {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
 .noticia {
     margin-top: 20px;
     background: #EFF5FD;
@@ -158,6 +204,44 @@ nav {
     color: #2D507D;
     font-weight: bold;
     text-decoration: none;
+}
+
+.cursos-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.curso-card {
+    background: #EFF5FD;
+    width: 220px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.curso-card img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.curso-card h3 {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.curso-card p {
+    font-size: 14px;
+}
+
+.curso-card span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #2D507D;
 }
 
 footer {
