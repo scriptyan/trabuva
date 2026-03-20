@@ -32,6 +32,10 @@ nav {
     margin-top: 20px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .menu {
     list-style: none;
     display: flex;
@@ -58,6 +62,22 @@ nav {
     margin: auto;
     padding: 20px;
     flex: 1;
+}
+
+.botao {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #2D507D;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.botao:hover {
+    background: #1b3557;
+    transform: scale(1.05);
 }
 
 .foto {
