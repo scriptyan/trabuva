@@ -185,6 +185,34 @@ a {
     color: #587BA7;
 }
 
+form {
+    margin-top: 20px;
+    text-align: left;
+}
+
+form label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    margin-top: 15px;
+}
+
 .icone {
     width: 20px;
     vertical-align: middle;
