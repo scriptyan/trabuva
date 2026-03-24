@@ -159,7 +159,6 @@ a {
     padding: 20px;
     border-radius: 8px;
     text-align: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .contato-card h3 {
@@ -272,7 +271,6 @@ button {
     padding: 20px;
     border-radius: 8px;
     text-align: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .curso-card img {
@@ -294,6 +292,41 @@ button {
     margin-top: 10px;
     font-weight: bold;
     color: #2D507D;
+}
+
+.projetos {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.projeto-card {
+    background: #EFF5FD;
+    width: 250px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.projeto-card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.projeto-card h3 {
+    margin: 10px 0;
+}
+
+.projeto-card p {
+    font-size: 14px;
+}
+
+.projeto-card a {
+    display: inline-block;
+    margin-top: 10px;
 }
 
 footer {
